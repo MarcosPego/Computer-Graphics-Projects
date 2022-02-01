@@ -1,0 +1,14 @@
+For the exe to run
+the final release folder should look like this:
+code/release/source/assets
+code/release/source/graphics/shaders
+code/release/CGJ.exe
+code/release/glew32.dll
+code/release/glew3.dll
+code/release/install.txt //optional
+
+Please keep in mind that the folders assets and shaders contain assets needed
+to run please do not change them.
+
+If it does not please follow the build instructions located at:
+code/source

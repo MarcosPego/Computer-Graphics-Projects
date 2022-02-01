@@ -1,0 +1,32 @@
+To build a new release version the user needs to go to
+code/source/CGJ/project/CGJ/CGJ.sln 
+and open the file in Microsoft Visual Studio.
+
+Then select release mode x64 and run the program. 
+It will then create a folder called release in
+code/
+
+Please make sure to include the dlls on
+code/source/CGJ/bin
+
+And it is also needed to at least have the folder
+assets located in:
+code/source/CGJ/project/CGJ/source/assets
+and shaders located in:
+code/source/CGJ/project/CGJ/source/graphics/shaders
+
+Please keep in mind that the folders assets and shaders contain assets needed
+to run please do not change them.
+
+
+Located inside the code/release folder the structure should be like this:
+code/release/source/assets
+code/release/source/graphics/shaders
+
+the final release folder should look like this:
+code/release/source/assets
+code/release/source/graphics/shaders
+code/release/CGJ.exe
+code/release/glew32.dll
+code/release/glew3.dll
+code/release/install.txt //optional

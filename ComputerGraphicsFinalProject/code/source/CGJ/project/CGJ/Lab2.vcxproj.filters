@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\maths">
+      <UniqueIdentifier>{3c5d2cd0-120c-4889-8b6b-d36a92abc76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\util">
+      <UniqueIdentifier>{3889b815-14e7-42bc-87d1-a75aabe90b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\graphics">
+      <UniqueIdentifier>{a74551a2-7bba-40a4-842b-1e5750c407ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\graphics\shaders">
+      <UniqueIdentifier>{16dc26a2-cffb-4095-9505-dadf770a9326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\meshLoader">
+      <UniqueIdentifier>{a27c45e6-4871-45be-a9dc-9766c01e62f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\graph">
+      <UniqueIdentifier>{86f998f6-8716-425c-b4ee-d62ed04ebce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\graphics\shaders\skybox_shader">
+      <UniqueIdentifier>{b303438c-a7b1-4060-872b-5bbcfcfef9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\graphics\shaders\water_shader">
+      <UniqueIdentifier>{6a2c07ca-3c91-4a0a-89da-f3f5d01956ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\maths\mat2.cpp">
+      <Filter>source\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="source\maths\mat3.cpp">
+      <Filter>source\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="source\maths\mat4.cpp">
+      <Filter>source\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="source\maths\MatrixFactory.cpp">
+      <Filter>source\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="source\maths\vec2.cpp">
+      <Filter>source\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="source\maths\vec3.cpp">
+      <Filter>source\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="source\maths\vec4.cpp">
+      <Filter>source\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="source\util\filereader.h">
+      <Filter>source\util</Filter>
+    </ClCompile>
+    <ClCompile Include="source\graphics\shader.cpp">
+      <Filter>source\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\util\filereader.cpp">
+      <Filter>source\util</Filter>
+    </ClCompile>
+    <ClCompile Include="source\graphics\camera.cpp">
+      <Filter>source\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\maths\quaternions.cpp">
+      <Filter>source\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="source\meshLoader\mesh.cpp">
+      <Filter>source\meshLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3-Hello3dWorld.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\graph\scenegraph.cpp">
+      <Filter>source\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="source\meshLoader\waterFrameBuffers.cpp">
+      <Filter>source\meshLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="source\graphics\window.cpp">
+      <Filter>source\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\meshLoader\texture.cpp">
+      <Filter>source\meshLoader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\maths\matrix.h">
+      <Filter>source\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="source\maths\vector.h">
+      <Filter>source\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="source\graphics\shader.h">
+      <Filter>source\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\graphics\camera.h">
+      <Filter>source\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\maths\quaternions.h">
+      <Filter>source\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="source\meshLoader\mesh.h">
+      <Filter>source\meshLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\scene.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\meshLoader\water.h">
+      <Filter>source\meshLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\graphics\window.h">
+      <Filter>source\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\meshLoader\texture.h">
+      <Filter>source\meshLoader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\graphics\shaders\vertexshader.vert">
+      <Filter>source\graphics\shaders</Filter>
+    </None>
+    <None Include="source\graphics\shaders\fragmentshader.frag">
+      <Filter>source\graphics\shaders</Filter>
+    </None>
+    <None Include="source\graphics\shaders\skybox_shader\skybox_frag.frag">
+      <Filter>source\graphics\shaders\skybox_shader</Filter>
+    </None>
+    <None Include="source\graphics\shaders\skybox_shader\skybox_vert.vert">
+      <Filter>source\graphics\shaders\skybox_shader</Filter>
+    </None>
+    <None Include="source\graphics\shaders\water_shader\water_frag.frag">
+      <Filter>source\graphics\shaders\water_shader</Filter>
+    </None>
+    <None Include="source\graphics\shaders\water_shader\water_vert.vert">
+      <Filter>source\graphics\shaders\water_shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
